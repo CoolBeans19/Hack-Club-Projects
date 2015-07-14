@@ -1,0 +1,58 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  background-image: url('guitarwallpaper.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+h1{
+  font-size:72pt;
+  margin: 10px;
+}
+h2{
+  font-size:24pt;
+}
+.box {
+  width: 25%;
+  display: inline-block;
+}
+
+.box a{
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.button {
+  width: 10%;
+  display: inline-block;
+}
+
+.button a {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius:5px;
+}
+
+p{
+  padding:50px;
+  font-size: 18pt;
+  text-align: center;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  display: table;
+  width: 100%;
+  text-align: center;
+  
+}
+
+ul2{
+  margin: 0;
+  padding: 0;
+  display: table;
+  width: 100%;
+  text-align: right;
+}
