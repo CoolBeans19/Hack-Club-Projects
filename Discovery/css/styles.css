@@ -1,0 +1,17 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  color: #FF6600;
+  background-color: #6633FF;
+}
+h1{
+  color:#6633FF;
+  font-size: 72px;
+  text-align: center;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #FF6600;
+  
+}
+h2{
+  padding: 10px;
+  text-align: center;
+}
