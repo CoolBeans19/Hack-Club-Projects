@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Messenger</title>
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="messenger container">
+      <header>Messenger</header>
+
+      <!--Username Input-->
+      <div class='messenger-toolbar'>
+        <label for="usernameInput">Username:</label>
+        <input type='text' id='usernameInput' placeholder='enter a username...'>
+      </div>
+
+      <!--List of Messages-->
+      <ul id='messageList' class="messenger-messages"></ul>
+
+      <!--New Message Input-->
+      <footer>
+        <input type='text' id='messageInput'  placeholder='Type a message...'>
+      </footer>
+
+      <button id="submitButton">Send</button>
+    </div>
+
+    <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
