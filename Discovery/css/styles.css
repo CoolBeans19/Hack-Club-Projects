@@ -54,12 +54,12 @@ html {
   margin: 0px auto;text-align:right;
   text-align: right;
   text-transform: uppercase;
-  font color: black;
+  font color: white;
   font-weight:bold;
 }
 
 i {
-  color: black;
+  color: white;
   font-family: weather;
   font-size: 70px;
   font-weight: normal;
@@ -128,17 +128,17 @@ i {
 #weather ul {
   margin: 0;
   padding: 0;
-  font-family:courier;
+  font-family: courier;
   width: 300px;
   padding: 2px;
-  border: 2px solid black; text-align:center;
+  border: 2px solid white; text-align:center;
   margin: auto;
   
   
 } 
 
 #weather li {
-  background: blue;
+  background: #4D6697;
   padding: 20px;
   display: block;
   text-align:center;
@@ -150,9 +150,14 @@ i {
   text-align: center;
 }
 
-h4 {
+h4{
   font-size:25pt;
 }
 div{
   position:right;
+}
+
+h5 {
+  font-size: 30pt;
+  font-family: e;
 }

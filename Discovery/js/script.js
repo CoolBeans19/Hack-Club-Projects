@@ -10,7 +10,7 @@ function randomizeYoutubeVideo() {
     ];
     
     var index = Math.floor(Math.random() * videos.length);
-    var html='<div id="video"><iframe width="560" height="315"   src="https://www.youtube.com/embed/' + videos[index] + '?autoplay=0" frameborder="0" allowfullscreen></iframe></div>';
+    var html='<iframe width="560" height="315"   src="https://www.youtube.com/embed/' + videos[index] + '?autoplay=0" frameborder="0" allowfullscreen></iframe>';
     
     // we need to append the text inside the html variable in the page
     $('#videoPlayer').append(html);
@@ -40,6 +40,7 @@ function randomizeSongs(){
 }
 
 $(document).ready(function() {
+    console.log("I am running!");
     randomizeYoutubeVideo();
     randomizeSongs();
 });
