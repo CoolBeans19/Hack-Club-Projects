@@ -1,9 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: white;
-  background-image: url('guitarwallpaper.jpg');
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+  background-image: url("guitarwallpaper.jpg");
 }
 h1{
   font-size:72pt;

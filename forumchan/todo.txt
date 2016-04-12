@@ -1,0 +1,8 @@
+display alert when button clicked [done]
+  
+display user text on the alert when button is pressed
+  how do you get the user text from the box?
+
+  
+display user text on page
+  http://www.learnfast.ninja/posts/53bcfc28f53c4ed00a3175c3

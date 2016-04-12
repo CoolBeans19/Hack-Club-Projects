@@ -11,7 +11,7 @@ h1{
   color:#19283E;
   font-size: 72pt;
   text-align: center;
-  -webkit-text-stroke-width: 2pt;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: white;
   
 }
@@ -153,11 +153,15 @@ i {
 h4{
   font-size:25pt;
 }
-div{
-  position:right;
-}
+
 
 h5 {
   font-size: 30pt;
   font-family: e;
+}
+
+marquee {
+  margin: 10px;
+  font-size: 14
+pt;
 }

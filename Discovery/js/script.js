@@ -39,10 +39,23 @@ function randomizeSongs(){
 
 }
 
+function randomizeQuotes(){
+  var quotes = [
+    '"When in doubt, use brute force" -Ken Thompson',
+    '"The proper function of man is to live, not to exist." -Jack London',
+    '"Dont let your dreams be dreams" -Shia Lebeouf'
+    ];
+    
+    var lake = Math.floor(Math.random() * quotes.length);
+    var quote = document.getElementById("quote");
+    $('#quote').append(quotes[lake]);
+}
+
 $(document).ready(function() {
-    console.log("I am running!");
-    randomizeYoutubeVideo();
-    randomizeSongs();
+  console.log("I am running!");
+  randomizeYoutubeVideo();
+  randomizeSongs();
+  randomizeQuotes();
 });
 
 

@@ -1,0 +1,10 @@
+body{
+  background-color: #222222;
+}
+h1{
+  color: white;
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+  font-size:72pt;
+  -webkit-text-stroke: #006699 1px
+}
