@@ -6,7 +6,7 @@ var backgroundImage;
 
 function preload(){
   playerImage = loadImage("https://surrogate.hackedu.us/i.imgur.com/N5uCbDu.png");
-  enemyImage = loadImage("https://surrogate.hackedu.us/i.imgur.com/OdL0XPt.png")
+  enemyImage = loadImage("https://surrogate.hackedu.us/i.imgur.com/OdL0XPt.png");
   backgroundImage = loadImage("https://surrogate.hackedu.us/i.imgur.com/aKQOg3G.png");
 }
 
@@ -14,7 +14,7 @@ function setup(){
   createCanvas(256, 256);
   player = createSprite(width/2, height - (playerImage.height/2), 0, 0);
   player.addImage(playerImage);
-  enemy = createSprite(width/2, 0, enemyImage.width, enemyImage.height);
+  enemy = createSprite(width/2, 0, 0, enemyImage.height);
   enemy.addImage(enemyImage);
   enemy.rotationSpeed = 4.0;
   isGameOver = false;
@@ -26,10 +26,10 @@ function draw(){
   else{
     background(backgroundImage);
     
-    if(keyDown(RIGHT_ARROW) && player.position.x < (width - 25)){
+    if(keyDown(RIGHT_ARROW) && player.position.x < (width - (playerImage.width/2))){
       player.position.x += 2;
     }
-    if(keyDown(LEFT_ARROW) && player.position.x > 25){
+    if(keyDown(LEFT_ARROW) && player.position.x > (playerImage.width/2)){
       player.position.x -= 2;
     }
     
