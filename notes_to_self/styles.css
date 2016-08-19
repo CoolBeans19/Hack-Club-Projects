@@ -1,0 +1,7 @@
+.new-note * {
+  display:block;
+}
+
+.note-date {
+    font-style: italic;
+}
